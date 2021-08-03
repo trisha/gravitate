@@ -30,5 +30,11 @@ Things you may want to cover:
 `cd gravitate`
 
 
+`bin/rails db:migrate`
+
+
+`rails db:setup`
+
+
 `rails server` to start app, then go to localhost:3000
 
