@@ -9,6 +9,9 @@ gem 'rails', '~> 6.1.4'
 gem 'pg', '~> 1.1'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
+gem 'devise'
+gem 'acts-as-taggable-on', '~> 7.0'
+# acts-as-taggable-on is an engine, not a gem. Engine is more powerful and has tables as well
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
