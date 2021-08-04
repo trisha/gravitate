@@ -10,10 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_04_175736) do
+ActiveRecord::Schema.define(version: 2021_08_04_182855) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "cities", force: :cascade do |t|
+    t.string "name"
+    t.string "lat"
+    t.string "long"
+    t.string "start_date"
+    t.string "end_date"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "taggings", id: :serial, force: :cascade do |t|
     t.integer "tag_id"
@@ -42,5 +52,34 @@ ActiveRecord::Schema.define(version: 2021_08_04_175736) do
     t.index ["name"], name: "index_tags_on_name", unique: true
   end
 
+  create_table "user_cities", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "city_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["city_id"], name: "index_user_cities_on_city_id"
+    t.index ["user_id"], name: "index_user_cities_on_user_id"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "email"
+    t.string "password"
+    t.string "first_name"
+    t.string "last_name"
+    t.string "profile_picture"
+    t.string "pronouns"
+    t.string "interested_in"
+    t.string "birthday"
+    t.string "linked_url"
+    t.string "instagram_url"
+    t.string "twitter_url"
+    t.string "other_url"
+    t.string "join_date"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   add_foreign_key "taggings", "tags"
+  add_foreign_key "user_cities", "cities"
+  add_foreign_key "user_cities", "users"
 end

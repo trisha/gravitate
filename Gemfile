@@ -11,6 +11,8 @@ gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 gem 'devise'
 gem 'acts-as-taggable-on', '~> 7.0'
+gem 'active_model_serializers'
+gem 'pry'
 # acts-as-taggable-on is an engine, not a gem. Engine is more powerful and has tables as well
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'

@@ -81,3 +81,22 @@ To create a SQL model:
 
 To create a join table:
 `rails generate model user_city user:reference city:reference`
+
+
+
+`rails db:migrate` to run migration of models/tables into SQL
+
+
+create new data in db > seeds.rb
+
+
+Afterward, run `rails db:seed`
+
+
+Afterward, go to terminal and type `rails console` and within there type `User.count` and `User.last` or `User.last.tags`. Then, update user model (user.rb) to include 'acts_as_taggable_on :tags' from the documentation. Afterward, within rails console can also type `reload!` if you've made changes to code and want to refresh. @user = User.last, Tag.all, Tag.all.pluck :name (to give just the names)
+
+
+rails console commands:
+`!` at the end overrides validations
+`a=Tag.find 5` sets a to the Tag with the id 5
+`a=_` the _ shortcut refers to the previous recent thing that was returned
