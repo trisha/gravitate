@@ -17,5 +17,5 @@ class UserSerializer < ActiveModel::Serializer
   :other_url,
   :join_date,
   :created_at,
-  :updated_at,
+  :updated_at
 end
