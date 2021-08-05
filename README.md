@@ -125,3 +125,14 @@ Whenever you add a gem, you have to run `bundle` in the terminal afterward
 
 
 `git push heroku main` to deploy updates to heroku 
+
+
+
+`rails db:drop`
+`rails db:create`
+`rails db:migrate`
+`rails db:seed`
+
+
+`heroku run rails console`
+`User.all.destroy` OR `User.destroy_all` and same for tags
