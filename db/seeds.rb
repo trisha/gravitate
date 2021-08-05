@@ -48,10 +48,13 @@ email: 'yari@gmail.com'})
 user6.tag_list = "hacking, design, roommates"
 user6.save
 
-Tag.find_or_create_by(name: 'paddleboarding')
+Tag.find_or_create_by(name: 'foodie')
 Tag.find_or_create_by(name: 'skiing')
 Tag.find_or_create_by(name: 'hiking')
 Tag.find_or_create_by(name: 'dining')
 Tag.find_or_create_by(name: 'roommates')
 Tag.find_or_create_by(name: 'groupon')
 Tag.find_or_create_by(name: 'rideshare')
+Tag.find_or_create_by(name: 'dancing')
+Tag.find_or_create_by(name: 'cycling')
+Tag.find_or_create_by(name: 'climbing')

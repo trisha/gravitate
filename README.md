@@ -135,4 +135,12 @@ Whenever you add a gem, you have to run `bundle` in the terminal afterward
 
 
 `heroku run rails console`
-`User.all.destroy` OR `User.destroy_all` and same for tags
+`User.destroy_all` and same for tags
+
+
+
+`rails server` to run app
+
+
+`rails console` to run commands
+`exit` or `exit!` to either exit or force exit out of console
