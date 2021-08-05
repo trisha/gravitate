@@ -6,7 +6,7 @@ class UserSerializer < ActiveModel::Serializer
   :last_name,
   :profile_picture,
   :city,
-  :tags
+  :tags,
   :pronouns,
   :interested_in,
   :birthday,
