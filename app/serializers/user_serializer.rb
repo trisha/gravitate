@@ -12,7 +12,7 @@ class UserSerializer < ActiveModel::Serializer
   :birthday,
   :join_date,
   :linked_url,
-  :instagam_url,
+  :instagram_url,
   :twitter_url,
   :other_url,
   :join_date,
