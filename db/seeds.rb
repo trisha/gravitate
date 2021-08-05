@@ -8,7 +8,11 @@
 
 user = User.find_or_create_by({first_name: 'Trisha', last_name: 'Pan', 
 profile_picture: 'https://media-exp1.licdn.com/dms/image/C5603AQExvwtz83SW_A/profile-displayphoto-shrink_400_400/0/1611081947490?e=1633564800&v=beta&t=VhgYoHZPvy-PYpMFTovhLrJYtyFYW95mAyG-5wcVAFs',
-email: 'pan.trixia@gmail.com'})
+email: 'trisha@gmail.com'})
+
+user = User.find_or_create_by({first_name: 'Alan', last_name: 'Haikal', 
+city: 'Miami',
+email: 'alan@gmail.com'})
 
 Tag.find_or_create_by(name: 'paddleboarding')
 Tag.find_or_create_by(name: 'skiing')

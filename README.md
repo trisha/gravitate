@@ -100,3 +100,28 @@ rails console commands:
 `!` at the end overrides validations
 `a=Tag.find 5` sets a to the Tag with the id 5
 `a=_` the _ shortcut refers to the previous recent thing that was returned
+
+
+
+
+`rails generate migration add_city_to_users` to create a new migration file to update the users table 
+
+Update the migration file:
+class AddCityToUsers < ActiveRecord::Migration[6.1]
+  def change
+    add_column :users, :city, :string
+  end
+end
+
+
+
+
+`rails db:migrate`
+
+
+
+Whenever you add a gem, you have to run `bundle` in the terminal afterward 
+
+
+
+`git push heroku main` to deploy updates to heroku 

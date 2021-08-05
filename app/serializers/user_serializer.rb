@@ -1,10 +1,21 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :id, :first_name, 
-  :last_name,
+  attributes :id, 
   :email,
+  :password,
+  :first_name, 
+  :last_name,
+  :profile_picture,
+  :city,
+  :tags
   :pronouns,
   :interested_in,
   :birthday,
   :join_date,
-  :tags
+  :linked_url,
+  :instagam_url,
+  :twitter_url,
+  :other_url,
+  :join_date,
+  :created_at,
+  :updated_at,
 end
