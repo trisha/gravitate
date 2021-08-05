@@ -1,28 +1,49 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+# Trisha's Ruby on Rails and Heroku Deploy Notes
 
-* Database creation
 
-* Database initialization
+## Heroku
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-    
-* Deployment instructions
+### To push any updates to the code: 
 
-* ...
 
+`git add .`
+
+
+`git commit -m "Add message"
+
+
+`git push heroku main`
+
+
+`git push`
+
+
+### To clear (which is different from dropping) the postgreSQL table and to reseed it:
+
+
+`heroku run rails console` to enter Rails console 
+
+
+`User.destroy_all` and same for Tag
+
+
+`User.count` to confirm that the count is 0
+
+
+`exit` to exit rails console
+
+
+`heroku run rails db:seed`
+
+
+## How to download Ruby on Rails
 
 [Download rvm](https://rvm.io/rvm/install) if you don't have it already (I followed the instructions under 'Basic Install')
 
@@ -128,14 +149,12 @@ Whenever you add a gem, you have to run `bundle` in the terminal afterward
 
 
 
-`rails db:drop`
+<!-- `rails db:drop`
 `rails db:create`
 `rails db:migrate`
-`rails db:seed`
+`rails db:seed` -->
 
 
-`heroku run rails console`
-`User.destroy_all` and same for tags
 
 
 
