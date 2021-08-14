@@ -200,3 +200,8 @@ Whenever you add a gem, you have to run `bundle` in the terminal afterward
 
 `rails console` to run commands
 `exit` or `exit!` to either exit or force exit out of console
+
+
+
+
+Special thanks to Horatio Thomas and Alan Haikal for being my engineering teammates on this hackathon project! Miami Hack Week, Aug 1-8, 2021.
