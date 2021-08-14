@@ -1,5 +1,8 @@
 # README
 
+'Gravitate' is Tinder meets Meetup, but for travelers. Find other travelers in the city you're in to do activities with, and add tags or 'passions' to your profile to discover new friends. 
+
+
 Live backend: 
 http://gravitate.herokuapp.com/api/users
 
@@ -9,6 +12,16 @@ http://gravitate.herokuapp.com/api/users/3 to view/edit a specific user
 
 http://gravitate.herokuapp.com/api/cities/miami to view the most popular tags by city
 
+
+Hacker house: https://www.miamihackweek.com/ramp-house
+
+
+Notion document: https://www.notion.so/Gravitate-app-overview-f3e51f9091d347beaa928ee6d86a092f
+
+Figma wireframes: https://www.figma.com/file/YflcdpdJa3RtiBS9mOZ1d5/Gravitate?node-id=10%3A505
+
+
+SQL Content Diagrams: https://app.genmymodel.com/api/dictionary/projects/_ljb8APR8EeutFtUJnEE8kQ
 
 ## To install, run the below commands in your terminal while you're in the project folder
 
