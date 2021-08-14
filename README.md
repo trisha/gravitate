@@ -34,6 +34,11 @@ To POST or PUT to a user (adding new tags to a user will also create a new tag):
 ![User schema with names of available fields](/screenshots/user_schema.png)
 
 
+## Gems used:
+https://github.com/mbleigh/acts-as-taggable-on
+
+
+
 
 
 # Trisha's Ruby on Rails and Heroku Deploy Notes
