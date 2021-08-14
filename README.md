@@ -13,6 +13,8 @@ http://gravitate.herokuapp.com/api/users/3 to view/edit a specific user
 http://gravitate.herokuapp.com/api/cities/miami to view the most popular tags by city
 
 
+Repo for native iOS frontend: https://github.com/horajikan/gravitate-ios
+
 Notion document: https://www.notion.so/Gravitate-app-overview-f3e51f9091d347beaa928ee6d86a092f
 
 Figma wireframes: https://www.figma.com/file/YflcdpdJa3RtiBS9mOZ1d5/Gravitate?node-id=10%3A505
