@@ -4,7 +4,7 @@ Live backend:
 http://gravitate.herokuapp.com/api/users
 
 
-http://gravitate.herokuapp.com/api/users/3 to view a specific user
+http://gravitate.herokuapp.com/api/users/3 to view/edit a specific user
 
 
 http://gravitate.herokuapp.com/api/cities/miami to view the most popular tags by city
