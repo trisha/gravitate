@@ -1,5 +1,37 @@
 # README
 
+Live backend: 
+http://gravitate.herokuapp.com/api/users
+
+
+http://gravitate.herokuapp.com/api/users/3 to view a specific user
+
+
+http://gravitate.herokuapp.com/api/cities/miami to view the most popular tags by city
+
+
+## To install, run the below commands in your terminal while you're in the project folder
+
+> Git clone
+
+> `cd [folderName]` to the project folder 
+
+> Run the command to download Ruby gems
+
+> Run `rails server` to start the Rails app.
+
+> Navigate to localhost:3000 if it doesn't do so already
+
+> Run `exit` or `exit` to quit or force quit the Rails app.
+
+
+To POST or PUT to a user (adding new tags to a user will also create a new tag):
+![Endpoints for editing user](/screenshots/edit_user.png)
+^ Where all field names are the same as in the db/migrate/schema.rb for User, except 'tag_list' takes one string with tags separated by commas and spaces.
+
+
+/db/migrate/schema.rb will list all available data fields
+![User schema with names of available fields](/screenshots/user_schema.png)
 
 
 
